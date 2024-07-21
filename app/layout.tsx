@@ -18,12 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gray-900 container mx-auto px-8">
-        <div className="">
+      <body className="bg-gray-900  ">
+        <div className="px-8 container mx-auto">
           <Header />
           <main className="flex justify-center">{children}</main>
-          {/* <Footer /> */}
+          <Footer />
         </div>
+        
       </body>
     </html>
   );
